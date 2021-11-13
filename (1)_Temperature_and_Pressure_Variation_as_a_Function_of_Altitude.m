@@ -38,6 +38,7 @@ for k = 1:np;
 end
 % Plot 2
 plot(P/1000, zz/1000, 'k-')
+% Axis 2
 axis([0, 110, 0, 50])
 % Elevation Label 2
 ylabel('Elevation (km)')
